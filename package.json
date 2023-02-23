@@ -1,0 +1,11 @@
+{
+  "name": "k6-faker",
+  "version": "1.0.0",
+  "description": "k6 scripts example with faker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Md. Farhan Labib",
+  "license": "ISC"
+}
