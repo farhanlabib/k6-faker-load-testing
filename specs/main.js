@@ -3,12 +3,12 @@ import http from 'k6/http';
 import { check } from 'k6';
 import { userData } from './payload.js'; //Sometimes you need to give the expact path for the file
 
-
 // Define the stages for the test
 export let options = {
     stages: [
         // Ramp up to 1 VUs for 5 second
-        { duration: "5s", target: 1},
+        { duration: "5s", target: 1 },
+      ],
 };
 
 // Set the base URL of the API
